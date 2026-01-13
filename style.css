@@ -1,0 +1,181 @@
+
+/* =========================
+   VARIABLES CSS
+   ========================= */
+   :root {
+    --primary-color: #8b1e1e; /* Rouge foncé */
+    --secondary-color: #ffffff; /* Blanc */
+    --text-color: #2b2b2b;
+    --background-light: #f7f7f7;
+}
+
+/* =========================
+   RESET & BASE
+   ========================= */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--background-light);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+   header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* =========================
+   SECTIONS
+   ========================= */
+   section {
+    padding: 3rem 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+section h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+/* =========================
+   OBJECTIFS
+   ========================= */
+   .objectifs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.objectif {
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    border-left: 6px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+/* =========================
+   ACTIVITÉS
+   ========================= */
+   .activites {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.activite {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.activite h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.8rem;
+}
+
+/* =========================
+   QUARTIERS
+   ========================= */
+   .quartiers ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quartiers li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+   footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+
+        /* =========================
+   CARROUSEL
+   ========================= */
+
+.carousel-section {
+    background-color: var(--secondary-color);
+    padding: 3rem 1.5rem;
+}
+
+.carousel {
+    width: 100%;
+    max-width: 1000px;
+    margin: 2rem auto 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-track {
+    display: flex;
+    width: calc(100% * 4);
+    animation: scroll 16s infinite ease-in-out;
+}
+
+.carousel-tab {
+}
+.carousel-tab img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Animation */
+@keyframes scroll {
+    0%   { transform: translateX(0); }
+    20%  { transform: translateX(0); }
+
+    25%  { transform: translateX(-25%); }
+    45%  { transform: translateX(-25%); }
+
+    50%  { transform: translateX(-50%); }
+    70%  { transform: translateX(-50%); }
+
+    75%  { transform: translateX(-75%); }
+    95%  { transform: translateX(-75%); }
+
+    100% { transform: translateX(0); }
+}
+
+.map-path {
+    cursor: pointer;
+}
