@@ -177,7 +177,7 @@ footer p {
 }
 
 #map-container {
-    width:50%;
+    width:100%;
 }
 #map-container svg {
     width: 100%;
