@@ -176,11 +176,23 @@ footer p {
     100% { transform: translateX(0); }
 }
 
-#map-container {
-    width:100%;
+#map-widget {
+    width:550px;
+    position: relative;
 }
 #map-container svg {
     width: 100%;
     height: 100%;
     position: relative;
+    cursor:pointer;
+}
+#district-name {
+    position: sticky;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    left: 50%;
+/*    transform: translateX(-50%);*/
+    z-index: 200;
 }
