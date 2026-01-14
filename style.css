@@ -33,6 +33,18 @@ body {
     color: var(--secondary-color);
     padding: 3rem 1.5rem;
     text-align: center;
+    position:relative;
+}
+.header-text {
+    margin: 50px 200px;
+}
+.header-logo {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    width: 120px;
+    height:120px;
+    transform: translateY(-50%);
 }
 
 header h1 {
@@ -153,6 +165,7 @@ footer p {
 }
 
 .carousel-tab {
+    position:relative;
 }
 .carousel-tab img {
     width: 100%;
@@ -195,4 +208,11 @@ footer p {
     left: 50%;
 /*    transform: translateX(-50%);*/
     z-index: 200;
+}
+
+.carousel-tab h3 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: white;
 }

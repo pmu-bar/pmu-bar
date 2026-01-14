@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="144.42123mm"
-   height="144.42123mm"
-   viewBox="0 0 144.42123 144.42123"
+   width="155.48611mm"
+   height="155.48611mm"
+   viewBox="0 0 155.48611 155.48611"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="878.23139"
-     inkscape:cy="-30.958756"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="435.9097"
+     inkscape:cy="-106.32406"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -39,7 +39,9 @@
      inkscape:window-height="974"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="false"
+     inkscape:snap-global="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,40 +58,56 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(382.79991,27.59157)">
+     transform="translate(388.33235,33.277247)">
     <rect
-       style="opacity:0.98000004;fill:none;fill-opacity:0.43653846;fill-rule:nonzero;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:0.98000004;fill:#8b1e1e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.2980001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect815-3"
+       width="109.94528"
+       height="109.94528"
+       x="-306.03452"
+       y="-243.15036"
+       transform="rotate(-45,-7.3861261e-6,4.7610052e-7)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="bg"
+     transform="translate(5.5324421,5.6856769)">
+    <rect
+       style="opacity:0.98000004;fill:none;fill-opacity:0.43653846;fill-rule:nonzero;stroke:#ffecec;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect815"
        width="100"
        height="100"
        x="-301.17023"
        y="-238.06937"
-       transform="rotate(-45)" />
+       transform="rotate(-45,224.70592,-448.28458)" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot817"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.33332825px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.18708867,-0.18708867,0.18708867,0.18708867,-109.15646,-311.85538)"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.33332825px;line-height:1.25;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(0.18708867,-0.18708867,0.18708867,0.18708867,273.64344,-284.26381)"><flowRegion
          id="flowRegion819"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.33332825px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><rect
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.33332825px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"><rect
            id="rect821"
            width="471.42856"
            height="231.42857"
            x="-1651.4286"
            y="259.66254"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.33332825px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.33332825px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara823"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.33332825px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:-10px;writing-mode:lr-tb;text-anchor:start">P.M.U.</flowPara></flowRoot>    <flowRoot
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.33332825px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:-10px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1">P.M.U.</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot825"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;line-height:1.25;font-family:'MS PGothic';-inkscape-font-specification:'MS PGothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(-0.18708867,0.18708867,-0.18708867,-0.18708867,-476.0902,456.23315)"><flowRegion
-         id="flowRegion827"><rect
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;line-height:1.25;font-family:'MS PGothic';-inkscape-font-specification:'MS PGothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(-0.18708867,0.18708867,-0.18708867,-0.18708867,-93.290291,483.82472)"><flowRegion
+         id="flowRegion827"
+         style="fill:#ffffff;fill-opacity:1"><rect
            id="rect829"
            width="571.42859"
            height="325.71429"
            x="-1694.2858"
-           y="491.09113" /></flowRegion><flowPara
+           y="491.09113"
+           style="fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara831"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.33332825px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:10px;writing-mode:lr-tb;text-anchor:start">BAR</flowPara></flowRoot>  </g>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:133.33332825px;font-family:arial;-inkscape-font-specification:'arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:10px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1">BAR</flowPara></flowRoot>  </g>
 </svg>
