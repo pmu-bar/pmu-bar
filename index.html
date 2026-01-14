@@ -25,25 +25,28 @@
     </header>
 
     <section class="carousel-section">
+
+        Plongée au coeur de la Catalogne, Barcelone regorge de quartiers — autres que Gracia — vibrants, riches en culture, en commerces locaux et en formes d’expression urbaine souvent méconnues. À travers un intinéraire culturel mêlant musique, sport et gastronomie, l’initiative <i>PMU Bar</i> invite à explorer ces territoires vivants et authentiques qui ne sont pas Gracia. Le temps de quelques heures, venez explorer la diversité humaine et artistique de la ville en allant à la rencontre de celles et ceux qui font battre le cœur de la ville au quotidien.
+
         <h2>Ambiances du Parcours</h2>
 
         <div class="carousel">
             <div class="carousel-track">
                 <div class="carousel-tab">
                     <h3>Gastronomie</h3>
-                    <img src="img/gastronomie.jpg" alt="Gastronomie locale">
+                    <img src="img/gastronomie.webp" alt="Gastronomie locale">
                 </div>
                 <div class="carousel-tab">
                     <h3>Sport</h3>
-                    <img src="img/sport.jpg" alt="Sport de quartier">
+                    <img src="img/sport.webp" alt="Sport de quartier">
                 </div>
                 <div class="carousel-tab">
                     <h3>Musique</h3>
-                    <img src="img/musique.jpg" alt="Musique urbaine">
+                    <img src="img/musique.webp" alt="Musique urbaine">
                 </div>
                 <div class="carousel-tab">
                     <h3>Patrimoine</h3>
-                    <img src="img/patrimoine.jpg" alt="Patrimoine">
+                    <img src="img/patrimoine.webp" alt="Patrimoine">
                 </div>
             </div>
         </div>
@@ -71,9 +74,9 @@
         <h2>Les quartiers</h2>
 
         <div id="map-widget">
-            <div id="district-name">Hello</div>
+            <div id="district-label"></div>
             <div id="map-container"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
-                <svg
+                <svg onmouseleave="displayname('')"
                 xmlns:dc="http://purl.org/dc/elements/1.1/"
                 xmlns:cc="http://creativecommons.org/ns#"
                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -578,7 +581,7 @@
 
 <script>
     function displayname(name){
-        document.getElementById("district-name").innerHTML = name;
+        document.getElementById("district-label").innerHTML = (name==""? ``:`<span class="district-name">`+name+`</span>`);
     }
 
 </script>

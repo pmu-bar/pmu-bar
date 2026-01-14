@@ -28,23 +28,29 @@ body {
 /* =========================
    HEADER
    ========================= */
-   header {
+header {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 3rem 1.5rem;
     text-align: center;
     position:relative;
 }
-.header-text {
-    margin: 50px 200px;
+@media (max-width: 600px){
+}
+@media (min-width: 600px){
+    .header-logo {
+        position: absolute;
+        left: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .header-text {
+        margin: 50px 200px;
+    }
 }
 .header-logo {
-    position: absolute;
-    left: 50px;
-    top: 50%;
     width: 120px;
     height:120px;
-    transform: translateY(-50%);
 }
 
 header h1 {
@@ -166,10 +172,8 @@ footer p {
 
 .carousel-tab {
     position:relative;
-}
-.carousel-tab img {
-    width: 100%;
-    object-fit: cover;
+    width: 25%;
+    overflow:clip;
 }
 
 /* Animation */
@@ -189,30 +193,60 @@ footer p {
     100% { transform: translateX(0); }
 }
 
-#map-widget {
-    width:550px;
-    position: relative;
+@media (min-width: 600px) {
+    .carousel-tab img {
+        width: 100%;
+        object-fit: cover;
+    }
+    #map-widget {
+        width:550px;
+        position: relative;
+        margin: auto;
+    }
+}
+@media (max-width: 600px) {
+    .carousel {
+        width: 100%;
+        aspect-ratio: 1;
+    }
+    .carousel-tab img {
+        height: 90vw;
+/*        width: 100%;*/
+        object-fit: cover;
+        transform: translateX(-15%);
+    }
+    #map-widget {
+        width:100%;
+        position: relative;
+    }
 }
 #map-container svg {
     width: 100%;
     height: 100%;
     position: relative;
     cursor:pointer;
+    -webkit-tap-highlight-color: transparent; /* prevent flashing blue on click */
 }
-#district-name {
+#district-label {
     position: sticky;
     top: 0;
-    margin: auto;
     width: 100%;
+    height: 1.5em;
     text-align: center;
     left: 50%;
-/*    transform: translateX(-50%);*/
     z-index: 200;
 }
-
+.district-name {
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid var(--primary-color);
+}
 .carousel-tab h3 {
   position: absolute;
   top: 50px;
   left: 50px;
   background-color: white;
+  padding: 10px 40px;
+  box-shadow: 3px 3px var(--primary-color);
+  z-index: 200;
 }
