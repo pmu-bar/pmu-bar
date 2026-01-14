@@ -243,6 +243,8 @@ path {
     padding: 5px 10px;
     border: 1px solid var(--primary-color);
     border-radius: 3px;
+    margin:auto;
+    display: inline-block;
 }
 .carousel-tab h3 {
   position: absolute;
@@ -253,6 +255,7 @@ path {
   box-shadow: 3px 3px var(--primary-color);
   z-index: 200;
 }
-.introduction {
+p {
     margin-bottom: 3em;
+    text-align: justify;
 }
