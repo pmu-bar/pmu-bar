@@ -259,3 +259,9 @@ p {
     margin-bottom: 3em;
     text-align: justify;
 }
+path:hover {
+    opacity:0.5;
+}
+.barri:hover {
+/*    opacity:0.1;*/
+}
