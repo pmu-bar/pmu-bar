@@ -260,6 +260,29 @@ p {
     margin-bottom: 3em;
     text-align: justify;
 }
+
 path:hover {
-    opacity:0;
+    fill:#aaa;
+}
+.distr-1 {fill: #654F6F}
+.distr-2 {fill: #5C5D8D}
+.distr-3 {fill: #FFE994}
+.distr-4 {fill: #3FC617}
+.distr-5 {fill: #CCE2A3}
+.distr-6 {fill: #9C95DC}
+.distr-7 {fill: #DD65D6}
+.distr-8 {fill: #847146}
+.distr-9 {fill: #DCA995}
+
+.form-button {
+    border: 1px solid black;
+    padding: 5px 15px;
+    cursor:pointer;
+    display: inline-block;
+    border-radius: 3px;
+    transition-duration:0.5s;
+}
+.form-button:hover {
+    transform:translateX(15px);
+    box-shadow:-15px 0 0 var(--primary-color);
 }
